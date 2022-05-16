@@ -1,0 +1,45 @@
+.homepage h1 {
+    border: 2px solid;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+}
+
+.home-page-sections {
+    padding: 50px 0;
+    display: flex;
+   align-items: flex-start;
+}
+
+.home-page-sections > div {
+    margin: 0 15px;
+}
+
+.home-page-sections .section-two {
+    width: 75%;
+    background: url(http://localhost:4200/assets/background.jpg);
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-two img {
+    width: 100%;
+}
+.section-three{
+    border: 2px solid;
+    padding: 10px;
+}
+.section-three p{
+    text-align: center;
+}
+.section-three ul {
+    list-style: none;
+    padding: 0;
+}
+.section-three li a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    display: block;
+}
